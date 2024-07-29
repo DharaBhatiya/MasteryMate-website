@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 
 // MongoDB connection URI (replace with your MongoDB connection string)
-const mongoURI = "mongodb://localhost:27017";
+const mongoURI = "mongodb+srv://dharabhatiya2525:rLPDYHcAWVnLhc17@masterymate-db.htymyyy.mongodb.net/?retryWrites=true&w=majority&appName=MasteryMate-Db";
 const dbName = "masterymate";
 
 // Connect to MongoDB
